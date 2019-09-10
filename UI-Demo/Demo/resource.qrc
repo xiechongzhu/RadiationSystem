@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resource/tasks_48px_1118102_easyicon.net.ico</file>
+        <file>resource/account_child_48px_1181628_easyicon.net.ico</file>
+        <file>resource/settings_48px_1236222_easyicon.net.ico</file>
+        <file>resource/controls_48px_1201030_easyicon.net.ico</file>
+        <file>resource/green.png</file>
+        <file>resource/red.png</file>
+        <file>resource/search_log_48px_1174050_easyicon.net.ico</file>
+        <file>resource/timg.jpg</file>
+        <file>resource/timg1.jpg</file>
+        <file>resource/u=1904101793,1090995170&amp;fm=26&amp;gp=0.jpg</file>
+        <file>resource/u=2995034283,314495446&amp;fm=26&amp;gp=0.jpg</file>
+    </qresource>
+</RCC>
