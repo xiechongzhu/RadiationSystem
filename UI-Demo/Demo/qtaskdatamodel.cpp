@@ -3,9 +3,9 @@
 
 QTaskDataModel::QTaskDataModel()
 {
-    m_data.push_back(CTaskInfo(QDateTime::currentDateTime().toString(), "任务1", "在线去污系统", "下发成功"));
-    m_data.push_back(CTaskInfo(QDateTime::currentDateTime().toString(), "任务2", "在线去污系统", "执行成功"));
-    m_data.push_back(CTaskInfo(QDateTime::currentDateTime().toString(), "任务3", "在线去污系统", "执行失败"));
+    m_data.push_back(CTaskInfo(QDateTime::currentDateTime().toString(), "任务1", "在线去污组件", "下发成功"));
+    m_data.push_back(CTaskInfo(QDateTime::currentDateTime().toString(), "任务2", "在线去污组件", "执行成功"));
+    m_data.push_back(CTaskInfo(QDateTime::currentDateTime().toString(), "任务3", "在线去污组件", "执行失败"));
 }
 
 int QTaskDataModel::columnCount(const QModelIndex &parent) const
@@ -24,7 +24,7 @@ QVariant QTaskDataModel::headerData(int section, Qt::Orientation orientation, in
         case 1:
             return "任务名称";
         case 2:
-            return "目的系统";
+            return "目的组件";
         case 3:
             return "执行情况";
         }

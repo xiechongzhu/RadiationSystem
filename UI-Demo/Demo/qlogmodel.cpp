@@ -3,10 +3,10 @@
 
 QLogModel::QLogModel()
 {
-    m_data.push_back(CLogInfo(QDateTime::currentDateTime().toString(), "辐射防护数据集成与监控系统", "信息", "操作员张三登录成功"));
-    m_data.push_back(CLogInfo(QDateTime::currentDateTime().toString(), "在线去污系统", "信息", "系统已启动"));
-    m_data.push_back(CLogInfo(QDateTime::currentDateTime().toString(), "在线去污系统", "调试", "收到状态上报信息"));
-    m_data.push_back(CLogInfo(QDateTime::currentDateTime().toString(), "在线去污系统", "错误", "发送控制命令失败"));
+    m_data.push_back(CLogInfo(QDateTime::currentDateTime().toString(), "辐射防护数据集成与监控组件", "信息", "操作员张三登录成功"));
+    m_data.push_back(CLogInfo(QDateTime::currentDateTime().toString(), "在线去污组件", "信息", "系统已启动"));
+    m_data.push_back(CLogInfo(QDateTime::currentDateTime().toString(), "在线去污组件", "调试", "收到状态上报信息"));
+    m_data.push_back(CLogInfo(QDateTime::currentDateTime().toString(), "在线去污组件", "错误", "发送控制命令失败"));
 }
 
 int QLogModel::columnCount(const QModelIndex &parent) const
@@ -25,7 +25,7 @@ QVariant QLogModel::headerData(int section, Qt::Orientation orientation, int rol
         case 1:
             return "等级";
         case 2:
-            return "系统名称";
+            return "组件名称";
         case 3:
             return "日志信息";
         }
