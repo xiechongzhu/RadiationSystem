@@ -25,28 +25,45 @@ DEFINES += QT_DEPRECATED_WARNINGS
 CONFIG += c++11
 
 SOURCES += \
+        accountform.cpp \
+        caccountinfo.cpp \
+        caccountmodel.cpp \
+        cconfigform.cpp \
         ccontrolinfo.cpp \
         cloginfo.cpp \
         csubsystemwindow.cpp \
+        ctaskform.cpp \
         ctaskinfo.cpp \
+        form.cpp \
+        logsearchform.cpp \
         main.cpp \
         mainwindow.cpp \
-        qctrlmodel.cpp \
         qlogmodel.cpp \
         qtaskdatamodel.cpp
 
 HEADERS += \
+        accountform.h \
+        caccountinfo.h \
+        caccountmodel.h \
+        cconfigform.h \
         ccontrolinfo.h \
         cloginfo.h \
         csubsystemwindow.h \
+        ctaskform.h \
         ctaskinfo.h \
+        form.h \
+        logsearchform.h \
         mainwindow.h \
-        qctrlmodel.h \
         qlogmodel.h \
         qtaskdatamodel.h
 
 FORMS += \
+        accountform.ui \
+        cconfigform.ui \
         csubsystemwindow.ui \
+        ctaskform.ui \
+        form.ui \
+        logsearchform.ui \
         mainwindow.ui
 
 # Default rules for deployment.
